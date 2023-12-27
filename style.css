@@ -1,0 +1,102 @@
+body {
+    background-color: #FFFFFF;
+    margin: 0px;
+    font-family: NanumGothic;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.header {
+    background-color: #000000;
+    float: center;
+    padding: 16px;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
+    font-size: 23px;
+}
+
+div.body {
+    margin: 0px;
+    padding: 5px 0px 16px 0px;
+    align-content: center;
+    text-align: center;
+}
+
+div.body_content {
+    max-width: 1080px;
+    align-content: center;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+div.card_outer {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 49.5%;
+}
+
+div.card {
+    display: block;
+    background: #EEEEEE;
+    padding: 16px;
+    margin: 16px;
+    overflow: hidden;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+div.title {
+    min-height: 240px;
+}
+
+div.card>a>img {
+    width: 100%;
+}
+
+div.card>a>span {
+    font-size: 20px;
+    display: block;
+    margin-top: 16px;
+    color: black;
+}
+
+div.card>a.text>span {
+    text-align: start;
+    margin: 8px;
+}
+
+div.card>a>span.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 8px;
+}
+
+div.card>a>span.skills {
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+
+div.card {
+    display: block;
+    background: #EEEEEE;
+    padding: 16px;
+    margin: 16px;
+    overflow: hidden;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+
+/* For Mobile */
+@media screen and (max-width: 768px) {
+
+    div.card_outer {
+        width: 100%;
+    }
+
+}
