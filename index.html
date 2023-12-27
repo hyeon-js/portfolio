@@ -1,16 +1,190 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <title>Hyeon-Violet</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no width=device-width" />
+    <meta name="description" content="Hyeonjs' Portfolio" />
+    <meta name="og:title" content="Portfolio" />
+    <meta name="og:description" content="Hyeonjs' Portfolio" />
+    <title>
+        Hyeonjs' Portfolio
+    </title>
 </head>
 <style>
+    body {
+        background-color: #FFFFFF;
+        margin: 0px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    div.header {
+        background-color: #000000;
+        float: center;
+        padding: 16px;
+        box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.3);
+        color: #FFFFFF;
+        font-size: 23px;
+    }
+
+    div.body {
+        margin: 0px;
+        padding: 5px 0px 16px 0px;
+        align-content: center;
+        text-align: center;
+    }
+
+    div.body_content {
+        max-width: 1080px;
+        align-content: center;
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    div.card_outer {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        width: 49.5%;
+    }
+
+    div.card {
+        display: block;
+        background: #EEEEEE;
+        padding: 16px;
+        margin: 16px;
+        overflow: hidden;
+        box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    }
+
+    div.card>a>img {
+        width: 100%;
+    }
+
+    div.card>a>span {
+        font-size: 20px;
+        display: block;
+        margin-top: 16px;
+        color: black;
+    }
+
+    div.card>a.text>span {
+        text-align: start;
+    }
+
+    div.card>a>span.title {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 8px;
+    }
+
+    span.skills {
+        font-size: 18px;
+        margin-top: 4px;
+    }
+
+
+    div.card {
+        display: block;
+        background: #EEEEEE;
+        padding: 16px;
+        margin: 16px;
+        overflow: hidden;
+        box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    }
+
+
+
+    /* For Mobile */
+    @media screen and (max-width: 768px) {
+
+        div.card_outer {
+            width: 100%;
+        }
+
+    }
 </style>
 
 <body>
-    test
+
+    <!-- Header -->
+    <div class=header>
+        Hyeonjs' Portfolio
+    </div>
+
+    <div class=body>
+        <div class=body_content>
+
+            <div class=card_outer>
+                <div class=card>
+                    <a class="text">
+                        <span class="title">Info.</span>
+                        <span>원하는 프로그램이 없으면 직접 만들어서 사용하는 개발자에요.</span>
+                        <span>주로 안드로이드 앱이나 웹을 만들어요.</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class=card_outer>
+                <div class=card>
+                    <a class="text">
+                        <span class="title">Skills</span>
+                        <span> - JavaScript & node.js</span>
+                        <span> - Android App (Java & Kotlin)</span>
+                        <span> - HTML & CSS</span>
+                        <span> - php</span>
+                        <span> - Python</span>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class=card_outer>
+                <div class=card>
+                    <a>
+                        <img src='./subway.png'>
+                        <span>수도권 전철 운행 정보</span>
+                        <span class="skills">HTML, CSS, JavaScript, node.js</span>
+                    </a>
+                </div>
+            </div>
+            <div class=card_outer>
+                <div class=card>
+                    <a>
+                        <img src='./dtro.png'>
+                        <span>대구 도시철도 노선도</span>
+                        <span class="skills">HTML, CSS, JavaScript, node.js, Java, Kotlin</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class=card_outer>
+                <div class=card>
+                    <a>
+                        <img src='./violet.png'>
+                        <span>hyeon-violet (리눅스 로그인 화면 테마)</span>
+                        <span class="skills">HTML, CSS, JavaScript</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class=card_outer>
+                <div class=card>
+                    <a>
+                        <img src='./coin.png'>
+                        <span>암호화폐 시세 조회</span>
+                        <span class="skills">Java</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </body>
 
 </html>
